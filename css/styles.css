@@ -31,10 +31,18 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 2%;
+  margin-left: 0px;
+  height: 70vh;
+}
+
+.imgheight {
+  height: 70vh;
 }
 
 .mySlides {
     display: none;
+    width: 100%;
   }
 
   .prev, .next {
@@ -57,7 +65,7 @@
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0);
 }
 .text {
   color: #f2f2f2;
@@ -82,10 +90,11 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-top: 2%;
 }
 
 .active, .dot:hover {
