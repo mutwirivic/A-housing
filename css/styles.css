@@ -1,20 +1,12 @@
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-
+#location-search {
+  width: 40vw;
+  height: 6vh;
+  background-color: lightgrey;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 3px;
 }
-
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
+.height {
+height: 80vh;
 }
