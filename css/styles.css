@@ -1,5 +1,5 @@
 .height {
-  height: 80vh;
+  height: 40vh;
   width: 100vw;
   background-color: lightgrey;
   display: flex;
@@ -15,4 +15,8 @@
   outline: none;
   color: black;
   border-radius: 3px;
+}
+
+#logo {
+  
 }
