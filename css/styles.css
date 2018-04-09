@@ -26,3 +26,8 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
