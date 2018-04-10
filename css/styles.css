@@ -48,10 +48,6 @@ h3 {
   width: 10vw;
 }
 
-.logo {
-  background-color: transparent;
-}
-
 @keyframes slidy {
   0% {
     left: 0%;
@@ -110,7 +106,7 @@ div#slider figure {
 }
 
 #slider {
-  height: 90vh;
+  height: 75vh;
   margin-top: none;
 }
 
