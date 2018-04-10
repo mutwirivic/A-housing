@@ -20,15 +20,6 @@
 }
 
 
-.header img {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 15vh;
-  width: 10vw;
-}
 
 .footer {
   height: 30vh;
@@ -41,38 +32,7 @@ h2 {
   font-size: 40px;
 }
 
-.fb {
-  margin-right: -20px;
-  transition: 1s;
-  position: relative;
-  bottom: 0px;
 
-}
-
-.twitter {
-  margin-right: -20px;
-  transition: 1s;
-  position: relative;
-  bottom: 0px;
-}
-
-.fb:hover {
-  border-color: rgba(16, 16, 146, 0.57);
-  transition: 1s;
-  background-color: rgba(80, 80, 202, 0.27);
-  box-shadow: 5px 5px 5px rgba(16, 16, 146, 0.57);
-  position: relative;
-  bottom: 20px;
-}
-
-.twitter:hover {
-  border-color: #84bad0;
-  transition: 0.75s;
-  background-color: rgba(132, 186, 208, 0.17);
-  box-shadow: 5px 5px 5px #84bad0;
-  position: relative;
-  bottom: 20px;
-}
 
 .center {
   font-family: 'Cookie', cursive;
