@@ -1,10 +1,4 @@
-.jumbotron {
-  height: 30vh;
-  margin: 0vh;
-  padding-right: 0px;
-  background-size: cover;
-  background-color: : rgba(204, 204, 204, 0.5);
-}
+
 body {
 	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/45544/background-svg.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
