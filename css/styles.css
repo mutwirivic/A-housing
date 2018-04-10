@@ -110,8 +110,8 @@ div#slider figure {
 }
 
 #slider {
-  height: 65vh;
-  margin-top: 2%;
+  height: 90vh;
+  margin-top: none;
 }
 
 .footer {
