@@ -49,10 +49,14 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s slidy;
+  animation: 20s slidy infinite;
 }
 
 
 .btn{
   height: 6vh;
+}
+
+#slider {
+  height: 65vh;
 }
