@@ -39,25 +39,54 @@ h3 {
   height: 15vh;
   width: 10vw;
 }
+
 .logo {
   background-color: lightgrey;
 }
 
 @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
 }
 
-body { margin: 0; }
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
+body {
+  margin: 0;
+}
+
+div#slider {
+  overflow: hidden;
+}
+
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+
 div#slider figure {
   position: relative;
   width: 500%;
@@ -68,8 +97,7 @@ div#slider figure {
   animation: 20s slidy infinite;
 }
 
-
-.btn{
+.btn {
   height: 6vh;
 }
 
@@ -82,111 +110,59 @@ div#slider figure {
   height: 30vh;
   background-color: lightgrey;
 }
-.delayone {
-  -moz-animation-delay: .2s;
-  -webkit-animation-delay: .2s;
-}
-.delaytwo {
-  -moz-animation-delay: .4s;
-  -webkit-animation-delay: .4s;
-}
-.delaythree {
-  -moz-animation-delay: .6s;
-  -webkit-animation-delay: .6s;
-}
-.delayfour {
-  -moz-animation-delay: .8s;
-  -webkit-animation-delay: .8s;
-}
-.delayfive {
-  -moz-animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-}
-.delaysix {
-  -moz-animation-delay: 1.4s;
-  -webkit-animation-delay: 1.4s;
-}
-h1 {
-  font-family:'Do Hyeon' ;
-  color: $color-snow;
-  font-size: 6em;
+
+h2 {
   text-align: center;
-  margin-top: 0;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
-#circ {
-  max-width: 100%;
-  min-height: 200px;
-  width: 1280px;
-  text-align: center;
-  margin: 0 auto;
-  float: none;
-  ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 80px;
-    width: 100%;
-    li {
-        display: inline-block;
-        border-radius: 50%;
-        overflow: hidden;
-        width: 120px;
-        height: 120px;
-        margin: 0 20px 20px 20px;
-        text-align: center;
-        background: $color-snow;
-        border: solid 8px $color-teal;
-      position: relative;
-      @include transition(all .4s);
-        &:hover {
-          border: solid 8px $color-pea;
-          @include transition(all .4s);
-          cursor: pointer;
-        }
-    }
-  }
+h2:before {
+  display: inline-block;
+  margin: 0px 20px 5px 0px;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color: #999;
+  width: 140px;
 }
 
-@media only screen and(max-width: 1200px) {
-  h1 {
-    font-size: 4em;
-  }
-  .icon {
+h2:after {
+  content: " ";
+  display: inline-block;
+  width: 140px;
+  height: 3px;
+  background-color: #999;
+  margin: 0px 0px 5px 20px;
+}
+
+.fb {
+  margin-right: -20px;
+  transition: 1s;
   position: relative;
-  margin-top: 30%;
-  color: $color-pea;
-  font-size: 2em;
-  @include transition(all .2s $ease-in-out-cubic);
-  }
-  #circ {
-    ul {
-      li {
-        width: 80px;
-        height: 80px;
-        margin: 0 5px 5px 5px;
-        &:hover {
-          .icon {
-            font-size: 2.5em;
-          }
-        }
-      }
-    }
-  }
+  bottom: 0px;
 }
-@media only screen and(max-width: 690px) {
-  h1 {
-    font-size: 2em;
-  }
-  #circ {
-    ul {
-      li {
-        border-radius: 0;
-        border: none;
-        margin: 0;
-        &:hover {
-          border: none;
-        }
-      }
-    }
-  }
+
+.twitter {
+  margin-right: -20px;
+  transition: 1s;
+  position: relative;
+  bottom: 0px;
+}
+
+.fb:hover {
+  border-color: rgba(16, 16, 146, 0.57);
+  transition: 1s;
+  background-color: rgba(80, 80, 202, 0.27);
+  box-shadow: 5px 5px 5px rgba(16, 16, 146, 0.57);
+  position: relative;
+  bottom: 20px;
+}
+
+.twitter:hover {
+  border-color: #84bad0;
+  transition: 0.75s;
+  background-color: rgba(132, 186, 208, 0.17);
+  box-shadow: 5px 5px 5px #84bad0;
+  position: relative;
+  bottom: 20px;
 }
