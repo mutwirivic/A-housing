@@ -1,7 +1,7 @@
 .height {
-  height: 40vh;
+  height: 30vh;
   width: 100vw;
-  background-color: lightgrey;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +21,14 @@
 .header img {
   width: 100px;
   height: 100px;
-  background-color: white;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  height: 15vh;
+  width: 10vw;
+}
+.logo {
+  background-color: lightgrey;
 }
 
 @keyframes slidy {
@@ -59,4 +63,5 @@ div#slider figure {
 
 #slider {
   height: 65vh;
+  margin-top: 2%;
 }
