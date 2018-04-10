@@ -1,3 +1,10 @@
+.jumbotron {
+  height: 30vh;
+  margin: 0vh;
+  padding-right: 0px;
+  background-size: cover;
+}
+
 .height {
   height: 30vh;
   width: 100vw;
@@ -73,4 +80,5 @@ div#slider figure {
 
 .footer {
   height: 30vh;
+  background-color: lightgrey;
 }
