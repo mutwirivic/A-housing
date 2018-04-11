@@ -1,11 +1,29 @@
 body {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/45544/background-svg.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.form {
+  padding-left: 2%;
+  padding-top: 2%;
+  background-color: rgba(128, 128, 128, 0.7);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+h2 {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 2%;
+  font-family: 'Cookie', cursive;
+}
 
 .mybackground {
   background-color: rgba(255, 255, 255, 0.5);
@@ -33,9 +51,21 @@ body {
   border-radius: 3px;
 }
 
-h3 {
-  font-family: 'Do Hyeon', sans-serif;
-  text-align: center;
+.my-nav {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  z-index: 999;
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.my-nav {
+  background-color: rgba(0, 0, 0, 0.00);
+  border-color: rgba(0, 0, 0, 0.00);
 }
 
 .header img {
@@ -106,18 +136,13 @@ div#slider figure {
 }
 
 #slider {
-  height: 75vh;
+  height: 95vh;
   margin-top: none;
 }
 
 .footer {
   height: 30vh;
   background-color: #a0a7b2;
-}
-
-h2 {
-  text-align: center;
-  font-family: 'Do Hyeon', sans-serif;
 }
 
 h2:before {
