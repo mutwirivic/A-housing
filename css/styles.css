@@ -4,3 +4,23 @@ text-align: center;
 .container{
   text-align: center;
 }
+body{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/originals/a1/5e/31/a15e31b1fa3e045026f84c8f0fdd5a8f.jpg")
+}
+.container{
+  margin-left: 30%;
+ background-color: rgba(128, 128, 128, 0.7);
+ border:none;
+ outline:none;
+ border-radius: 3px;
+ width:40vw;
+ height:60vw;
+ text-align: center;
+ position: center;
+ float:inherit;
+ font-family: 'Raleway', sans-serif;
+ text-align: left;
+}
