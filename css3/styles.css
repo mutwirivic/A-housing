@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+}
+.btn{
+  float: right;
+}
+body{
+  text-align: center;
+  background-image: url("../img/apartment.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+}
+.container-fluid{
+  margin-left: 30%;
+  background-color: rgba(128, 128, 128, 0.7);
+  border:none;
+  outline:none;
+  border-radius: 3px;
+  width:40vw;
+  height:50vw;
+  text-align: center;
+  position: center;
+  float:inherit;
+}
+.forms{
+  border-radius: 5px;
+}
+.container-footer{
+margin-top: 200px;
+}
